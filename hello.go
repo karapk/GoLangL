@@ -9,7 +9,7 @@ import "fmt"
 
 /*
 	+ %s placeholder is used to represent a string value
-	+ Format string requires a string argument to substituted for the %s placeholder 
+	+ Format string requires a string argument to substituted for the %s placeholder
 		- the function below is missing that arguement
 */
 // func main() {
@@ -18,5 +18,7 @@ import "fmt"
 
 func main() {
 	fmt.Printf("Hello, %s!/n,", "World")
-}
 
+	fmt.Println("Hello")
+
+}
