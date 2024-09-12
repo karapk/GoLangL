@@ -20,5 +20,12 @@ func main() {
 	fmt.Printf("Hello, %s!/n,", "World")
 
 	fmt.Println("Hello")
+	fmt.Println("Greetings and Salutations")
+	fmt.Println("Greetings and\n\"Salutations\"")
+	fmt.Println(`Greetings and 
+	"Salutations"`)
+
+	var smallnumber byte = 120
+	fmt.Println(smallnumber)
 
 }
